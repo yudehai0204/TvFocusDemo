@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--PortalItem相关-->
+    <style name="home_img_default">
+        <!--<item name="android:scaleType">fitXY</item>-->
+        <item name="android:focusable">true</item>
+        <!--<item name="android:src">@drawable/img_default</item>-->
+    </style>
+    <style name="home_img_w310h150" parent="home_img_default">
+        <item name="android:layout_width">310dp</item>
+        <item name="android:layout_height">150dp</item>
+    </style>
+    <style name="home_img_w150h150" parent="home_img_default">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+    </style>
+    <style name="home_img_w630h310" parent="home_img_default">
+        <item name="android:layout_width">630dp</item>
+        <item name="android:layout_height">310dp</item>
+    </style>
+
+    <style name="home_img_w310h310" parent="home_img_default">
+        <item name="android:layout_width">310dp</item>
+        <item name="android:layout_height">310dp</item>
+    </style>
+    <style name="home_img_w470h310" parent="home_img_default">
+        <item name="android:layout_width">470dp</item>
+        <item name="android:layout_height">310dp</item>
+    </style>
+    <style name="home_img_w300h470" parent="home_img_default">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">470dp</item>
+    </style>
+    <style name="home_img_w200h200" parent="home_img_default">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+    <style name="home_img_w240h410" parent="home_img_default">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">410dp</item>
+    </style>
+    <style name="home_img_w280h410" parent="home_img_default">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">410dp</item>
+    </style>
+
+
+
+
+</resources>

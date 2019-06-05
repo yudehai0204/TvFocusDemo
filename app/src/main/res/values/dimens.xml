@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_toolbar_height">60dip</dimen>
+    <dimen name="fading_edge">20dip</dimen>
+    <dimen name="portal_default_margin">10dp</dimen>
+    <dimen name="portal_default_padding_left">80dip</dimen>
+    <dimen name="portal_default_padding_top">20dip</dimen>
+    <dimen name="title_size">30sp</dimen>
+    <dimen name="user_detail_item_height">65dip</dimen>
+    <dimen name="root_padding">60dip</dimen>
+    <dimen name="most_view_margin">20dp</dimen>
+</resources>

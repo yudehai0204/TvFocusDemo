@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game.cyberpacket.com.tvfocustest.SmoothHorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:fillViewport="true"
+    >
+<RelativeLayout
+    android:id="@+id/mRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:focusable="false"
+    android:paddingLeft="@dimen/portal_default_padding_left"
+    android:paddingTop="@dimen/portal_default_padding_top">
+
+    <game.cyberpacket.com.tvfocustest.PortalView
+        android:id="@id/img1"
+        style="@style/home_img_w200h200" />
+
+    <game.cyberpacket.com.tvfocustest.PortalView
+        android:id="@id/img2"
+        style="@style/home_img_w240h410"
+        android:layout_marginLeft="@dimen/portal_default_margin"
+        android:layout_toRightOf="@+id/img1"
+        android:nextFocusLeft="@id/img1"
+        android:nextFocusRight="@id/img3" />
+
+    <game.cyberpacket.com.tvfocustest.PortalView
+        android:id="@id/img3"
+        style="@style/home_img_w240h410"
+        android:layout_marginLeft="@dimen/portal_default_margin"
+        android:layout_toRightOf="@+id/img2" />
+
+    <game.cyberpacket.com.tvfocustest.PortalView
+        android:id="@id/img4"
+        style="@style/home_img_w200h200"
+        android:layout_marginLeft="@dimen/portal_default_margin"
+        android:layout_toRightOf="@+id/img3" />
+
+    <game.cyberpacket.com.tvfocustest.PortalView
+        android:id="@id/img5"
+        style="@style/home_img_w200h200"
+        android:layout_marginLeft="@dimen/portal_default_margin"
+        android:layout_toRightOf="@+id/img4" />
+    <!--第二行-->
+    <game.cyberpacket.com.tvfocustest.PortalView
+        android:id="@id/img6"
+        style="@style/home_img_w200h200"
+        android:layout_below="@+id/img1"
+        android:layout_marginTop="@dimen/portal_default_margin" />
+
+    <game.cyberpacket.com.tvfocustest.PortalView
+        android:id="@id/img7"
+        style="@style/home_img_w200h200"
+        android:layout_below="@+id/img1"
+        android:layout_marginLeft="@dimen/portal_default_margin"
+        android:layout_marginTop="@dimen/portal_default_margin"
+        android:layout_toRightOf="@+id/img3" />
+
+    <game.cyberpacket.com.tvfocustest.PortalView
+        android:id="@id/img8"
+        style="@style/home_img_w200h200"
+        android:layout_below="@+id/img1"
+        android:layout_marginLeft="@dimen/portal_default_margin"
+        android:layout_marginTop="@dimen/portal_default_margin"
+        android:layout_toRightOf="@+id/img7" />
+
+    <game.cyberpacket.com.tvfocustest.FocusView
+        android:id="@+id/mFocusView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:visibility="invisible" />
+</RelativeLayout>
+</game.cyberpacket.com.tvfocustest.SmoothHorizontalScrollView>
